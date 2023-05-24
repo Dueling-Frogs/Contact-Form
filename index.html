@@ -43,14 +43,17 @@ input[type=submit]:hover {
 
 <div class="container">
   <form action="hhttps://formsubmit.co/daron.rs@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="New form submission!">
+    <input type="hidden" name="_next" value="hhttps://daronhudson.github.io/contact-test/thanks.html">
+
     <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Your name..">
+    <input type="text" id="name" name="name" placeholder="Name">
 
     <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="Your email..">
+    <input type="email" name="email" placeholder="Email Address">
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
